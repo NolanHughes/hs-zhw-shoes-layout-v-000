@@ -337,3 +337,7 @@ footer {
 	.first {
 		margin-left: 0%;
 	}
+
+	* {
+		box-sizing: border-box;
+	}
