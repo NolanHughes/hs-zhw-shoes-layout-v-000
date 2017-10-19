@@ -275,11 +275,11 @@ iframe {
 	}
 
 	[class*="col-"] {
-		margin: 2%;
+		margin-left: 2%;
 	}
 
 	.first {
-		margin: 0%;
+		margin-left: 0%;
 	}
 
 /********** Details **********/
