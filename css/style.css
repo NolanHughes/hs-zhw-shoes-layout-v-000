@@ -264,8 +264,6 @@ iframe {
 		text-decoration: underline;
 	}
 
-
-
 /********** Details **********/
 
 #details {
@@ -307,4 +305,29 @@ footer {
 /* code examples copyright Jonathan Grover 2012 */
 
 	/********** Sections **********/
-	
+	.clearfix:after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+		line-height: 0;
+	}
+
+	.col-1 {
+		width: 32%;
+		float: left;
+	}
+
+	.col-2 {
+		width: 66%;
+		float: left;
+	}
+
+	[class*="col-"] {
+		margin-left: 2%;
+	}
+
+	.first {
+		margin-left: 0%;
+	}
