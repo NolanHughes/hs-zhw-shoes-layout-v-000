@@ -267,6 +267,7 @@ iframe {
 	.col-1 {
 		width: 32%;
 		float: left;
+		background: yellow;
 	}
 
 	.col-2 {
