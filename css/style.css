@@ -274,6 +274,10 @@ iframe {
 		float: left;
 	}
 
+	[class*="col-"] {
+		margin: 20px;
+	}
+
 /********** Details **********/
 
 #details {
