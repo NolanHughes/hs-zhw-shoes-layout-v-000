@@ -322,6 +322,7 @@ footer {
 	.col-2 {
 		width: 66%;
 		float: left;
+		margin-top: 20px;
 	}
 
 .col-3 {
