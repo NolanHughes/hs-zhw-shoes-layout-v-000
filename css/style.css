@@ -304,7 +304,7 @@ footer {
 
 /* code examples copyright Jonathan Grover 2012 */
 
-	/********** Sections **********/
+/********** Columns **********/
 	.clearfix:after {
 		content: ".";
 		display: block;
